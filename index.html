@@ -13,13 +13,13 @@
 
       
       <label>What is the most important thing of a website that make you to stay longer?
-        <textarea name="comment" cols="50" row="5">[Type your inputs here]</textarea>
+        <input type="text" name="input" placeholder="Type your inputs here" required>
       </label>
       <br>
       <br>
       
       <fieldset>What is the purpose of this website?
-        <select name="purpose">
+        <select name="purpose" required>
           <option value="">Please select</option>
           <option value="marketing">Marketing Products/Businesses</option>
           <option value="blog">Blog</option>
@@ -34,10 +34,10 @@
           What is your prefer background theme color?
         </legend>
         <label>Dark
-          <input type="radio" name="color" value="dark" required>
+          <input type="radio" name="color" value="dark">
         </label>
         <label>Light
-          <input type="radio" name="color" value="light" required>
+          <input type="radio" name="color" value="light">
         </label>
       </fieldset>
       
@@ -47,12 +47,12 @@
         </legend>
         <label>
           Yes
-          <input type="checkbox" name="access" value="yes" required>
+          <input type="checkbox" name="access" value="yes">
         </label>
         
         <label>
           No
-          <input type="checkbox" name="access" value="yes" required>
+          <input type="checkbox" name="access" value="yes">
         </label>
       </fieldset>
       <br>
